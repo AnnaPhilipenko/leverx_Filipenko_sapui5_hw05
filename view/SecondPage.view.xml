@@ -1,0 +1,8 @@
+<mvc:View
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	controllerName="leverx.app.controller.SecondPage">
+	<text text="Welcome to the second page!" class="sapUiSmallMarginTop"></text>
+		<Button press="nextPageClick" text="to the third page"  class="sapUiSmallMarginTop" />
+		<Button press="prevPageClick" text="back"  class="sapUiSmallMarginTop" />
+</mvc:View>
